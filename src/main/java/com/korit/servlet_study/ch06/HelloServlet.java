@@ -1,4 +1,4 @@
-package com.korit.servlet_study;
+package com.korit.servlet_study.ch06;
 
 import java.io.*;
 import javax.servlet.http.*;

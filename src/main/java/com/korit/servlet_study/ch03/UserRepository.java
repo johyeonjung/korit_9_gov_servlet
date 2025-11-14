@@ -24,6 +24,7 @@ public class UserRepository {
         user.setId(++autoId);
         users.add(user);
     }
+
     public User findByUsername(String username) {
         Optional<User> userOptional = users.stream().
                 filter(user -> user.getUsername().equals(username))
